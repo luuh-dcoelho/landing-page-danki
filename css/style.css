@@ -86,11 +86,15 @@ body {
 
 .input-container input {
     margin-top: 8px;
+    padding: 20px;
     width: 344px;
     height: 55px;
     border: 1px solid #cccccc;
 }
 
+.input-container input:focus {
+    outline: none;
+}
 
 .form .submit-container {
     text-align: center;
